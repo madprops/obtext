@@ -20,7 +20,7 @@ OBText turns plain text into smooth, cyber-aesthetic kinetic typography with 3D 
 ## 🚀 Quick Start
 
 ### 1. Open Locally
-Simply open [`main.html`](file:///mnt/struct_1/code/obtext/main.html) in any modern web browser (Chrome, Firefox, Edge, Safari):
+Simply open [`index.html`](file:///mnt/struct_1/code/obtext/index.html) in any modern web browser (Chrome, Firefox, Edge, Safari):
 
 ```bash
 # Optional: serve locally with any static server
@@ -29,8 +29,8 @@ python3 -m http.server 8080
 
 ### 2. Add to OBS Studio
 1. In OBS Studio, add a new **Browser Source**.
-2. Point it to your local file path (or `http://localhost:8080/main.html`):
-   - **URL / Path**: `file:///path/to/obtext/main.html`
+2. Point it to your local file path (or `http://localhost:8080/index.html`):
+   - **URL / Path**: `file:///path/to/obtext/index.html`
    - **Width**: `1920` (or `1280` depending on your canvas)
    - **Height**: `1080` (or `720`)
    - **FPS**: `60`
@@ -131,7 +131,7 @@ The subtle control dock lives in the **top-right corner**:
 
 ```text
 obtext/
-├── main.html      # Stage, overlays, dock navigation & modal editor markup
+├── index.html      # Stage, overlays, dock navigation & modal editor markup
 ├── style.css      # Cyberpunk visual system, animations, and responsive styles
 ├── base.js        # Script parser, timing engine, animation runner & state management
 └── README.md      # Documentation
