@@ -6,6 +6,12 @@ OBText turns plain text into smooth, cyber-aesthetic kinetic typography with 3D 
 
 ---
 
+![](input.png)
+
+![](demo.webp)
+
+---
+
 ## 🌟 Highlights
 
 - **OBS-Optimized Clean Capture**: Minimalist, ghosted control dock that auto-hides entirely during playback alongside the mouse cursor.
